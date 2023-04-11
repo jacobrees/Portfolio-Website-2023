@@ -3,7 +3,7 @@ const canvas = document.querySelector("#canvas1");
 const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-ctx.fillStyle = "white";
+ctx.fillStyle = "#4DD0E1";
 
 class Ball {
   constructor(effect) {
@@ -82,6 +82,6 @@ animate();
 window.addEventListener("resize", () => {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
-  ctx.fillStyle = "white";
+  ctx.fillStyle = "#4DD0E1";
   effect.reset(canvas.width, canvas.height);
 });
