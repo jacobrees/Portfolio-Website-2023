@@ -21,7 +21,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #4DD0E1;
+  color: #E16BCF;
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
@@ -52,6 +52,13 @@ canvas {
   font-size: 1.1rem;
   padding-right: 20px;
   padding-bottom: 20px;
+  text-decoration: underline;
+  transition: color 0.2s ease-out;
+}
+
+.home-links:hover {
+  text-decoration: none;
+  color: #E16BCF;
 }
 
 
